@@ -10,7 +10,7 @@ const weather = new Promise((resolve, reject) => {
 
 weather
   .then(fulfilled => {
-    console.log(fulfilled);
+    console.log(fulfilled);if
   })
   .catch(error => {
     console.log(error);
